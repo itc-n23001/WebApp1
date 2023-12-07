@@ -1,0 +1,5 @@
+const print = console.log                                                                               
+  2 const stream = require('fs')
+  3   .readFileSync('/dev/stdin', 'utf8')
+  4   .trim()
+  5 const lines = stream.split('\n')
